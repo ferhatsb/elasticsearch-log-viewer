@@ -1,0 +1,42 @@
+[2013-03-15 12:05:28,509][INFO ][node                     ] [Magik] {0.20.1}[7976]: initializing ...
+[2013-03-15 12:05:28,533][INFO ][plugins                  ] [Magik] loaded [log-viewer], sites [head, es]
+[2013-03-15 12:05:31,849][INFO ][node                     ] [Magik] {0.20.1}[7976]: initialized
+[2013-03-15 12:05:31,850][INFO ][node                     ] [Magik] {0.20.1}[7976]: starting ...
+[2013-03-15 12:05:31,992][INFO ][transport                ] [Magik] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/10.0.2.15:9300]}
+[2013-03-15 12:05:35,039][INFO ][cluster.service          ] [Magik] new_master [Magik][ut5fB-vxTIKMNwGe7qWLGg][inet[/10.0.2.15:9300]], reason: zen-disco-join (elected_as_master)
+[2013-03-15 12:05:35,100][INFO ][discovery                ] [Magik] elasticsearch/ut5fB-vxTIKMNwGe7qWLGg
+[2013-03-15 12:05:35,133][INFO ][http                     ] [Magik] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/10.0.2.15:9200]}
+[2013-03-15 12:05:35,134][INFO ][node                     ] [Magik] {0.20.1}[7976]: started
+[2013-03-15 12:05:36,263][INFO ][gateway                  ] [Magik] recovered [5] indices into cluster_state
+[2013-03-15 12:08:26,617][INFO ][node                     ] [Magik] {0.20.1}[7976]: stopping ...
+[2013-03-15 12:08:27,043][INFO ][node                     ] [Magik] {0.20.1}[7976]: stopped
+[2013-03-15 12:08:27,043][INFO ][node                     ] [Magik] {0.20.1}[7976]: closing ...
+[2013-03-15 12:08:27,086][INFO ][node                     ] [Magik] {0.20.1}[7976]: closed
+[2013-03-15 12:08:59,303][INFO ][node                     ] [Gargantus] {0.20.1}[8414]: initializing ...
+[2013-03-15 12:08:59,315][INFO ][plugins                  ] [Gargantus] loaded [log-viewer], sites [head, es]
+[2013-03-15 12:09:02,545][INFO ][node                     ] [Gargantus] {0.20.1}[8414]: initialized
+[2013-03-15 12:09:02,545][INFO ][node                     ] [Gargantus] {0.20.1}[8414]: starting ...
+[2013-03-15 12:09:02,707][INFO ][transport                ] [Gargantus] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/10.0.2.15:9300]}
+[2013-03-15 12:09:05,747][INFO ][cluster.service          ] [Gargantus] new_master [Gargantus][H87Q1KT5QdWstNmgJqw-dg][inet[/10.0.2.15:9300]], reason: zen-disco-join (elected_as_master)
+[2013-03-15 12:09:05,816][INFO ][discovery                ] [Gargantus] elasticsearch/H87Q1KT5QdWstNmgJqw-dg
+[2013-03-15 12:09:05,840][INFO ][http                     ] [Gargantus] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/10.0.2.15:9200]}
+[2013-03-15 12:09:05,840][INFO ][node                     ] [Gargantus] {0.20.1}[8414]: started
+[2013-03-15 12:09:06,922][INFO ][gateway                  ] [Gargantus] recovered [5] indices into cluster_state
+[2013-03-15 12:11:25,599][INFO ][node                     ] [Gargantus] {0.20.1}[8414]: stopping ...
+[2013-03-15 12:11:25,785][INFO ][node                     ] [Gargantus] {0.20.1}[8414]: stopped
+[2013-03-15 12:11:25,785][INFO ][node                     ] [Gargantus] {0.20.1}[8414]: closing ...
+[2013-03-15 12:11:25,794][INFO ][node                     ] [Gargantus] {0.20.1}[8414]: closed
+[2013-03-15 12:11:27,353][INFO ][node                     ] [Stewart, Stanley] {0.20.1}[8638]: initializing ...
+[2013-03-15 12:11:27,367][INFO ][plugins                  ] [Stewart, Stanley] loaded [log-viewer], sites [head, es]
+[2013-03-15 12:11:30,504][INFO ][node                     ] [Stewart, Stanley] {0.20.1}[8638]: initialized
+[2013-03-15 12:11:30,504][INFO ][node                     ] [Stewart, Stanley] {0.20.1}[8638]: starting ...
+[2013-03-15 12:11:30,656][INFO ][transport                ] [Stewart, Stanley] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/10.0.2.15:9300]}
+[2013-03-15 12:11:33,693][INFO ][cluster.service          ] [Stewart, Stanley] new_master [Stewart, Stanley][i-8TVniuSoKJpO5LcgJRog][inet[/10.0.2.15:9300]], reason: zen-disco-join (elected_as_master)
+[2013-03-15 12:11:33,751][INFO ][discovery                ] [Stewart, Stanley] elasticsearch/i-8TVniuSoKJpO5LcgJRog
+[2013-03-15 12:11:33,776][INFO ][http                     ] [Stewart, Stanley] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/10.0.2.15:9200]}
+[2013-03-15 12:11:33,783][INFO ][node                     ] [Stewart, Stanley] {0.20.1}[8638]: started
+[2013-03-15 12:11:34,801][INFO ][gateway                  ] [Stewart, Stanley] recovered [5] indices into cluster_state
+[2013-03-15 12:12:57,917][INFO ][node                     ] [Stewart, Stanley] {0.20.1}[8638]: stopping ...
+[2013-03-15 12:12:58,108][INFO ][node                     ] [Stewart, Stanley] {0.20.1}[8638]: stopped
+[2013-03-15 12:12:58,108][INFO ][node                     ] [Stewart, Stanley] {0.20.1}[8638]: closing ...
+[2013-03-15 12:12:58,117][INFO ][node                     ] [Stewart, Stanley] {0.20.1}[8638]: closed
