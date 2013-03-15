@@ -28,15 +28,14 @@ public class GetLogFileNamesAction extends BaseRestHandler {
 
         try {
             XContentBuilder builder = restContentBuilder(request);
-            builder.startObject();
-            builder.startObject("logs");
+            builder.startArray();
             for (File log : logs) {
-                builder.startObject(log.getName());
+                builder.startObject();
+                builder.field("name", log.getName());
                 builder.field("read", log.canRead());
                 builder.endObject();
             }
-            builder.endObject();
-            builder.endObject();
+            builder.endArray();
             channel.sendResponse(new XContentRestResponse(request, OK, builder));
         } catch (Exception e) {
             try {

@@ -1,0 +1,16 @@
+<div class="span12">
+    <div class="row">
+        <div class="span4">
+            <ul>
+                <li ng-repeat="log in logs"><a href="#/logs/{{log.name}}">{{log.name}}</a></li>
+            </ul>
+        </div>
+
+        <div class="span8">
+            <p>{{log.name}}</p>
+            <textarea class="log-view">
+                {{log.content}}
+            </textarea>
+        </div>
+    </div>
+</div>

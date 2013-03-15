@@ -44,10 +44,8 @@ public class GetLogFileContentAction extends BaseRestHandler {
                 }
                 XContentBuilder builder = restContentBuilder(request);
                 builder.startObject();
-                builder.startObject("log");
                 builder.field("name", logFile.getName());
                 builder.field("content", content);
-                builder.endObject();
                 builder.endObject();
                 channel.sendResponse(new XContentRestResponse(request, OK, builder));
             }
