@@ -1,4 +1,6 @@
+@import url('http://twitter.github.com/bootstrap/assets/css/bootstrap.css');
+
 .log-view {
-    width: 500px;
+    width: 100%;
     height: 600px;
 }
