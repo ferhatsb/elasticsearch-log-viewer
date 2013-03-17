@@ -11,33 +11,28 @@
     </div>
     <!--/span-->
     <div class="span9">
-
-        <form class="bs-docs-example">
-            <div class="input-append">
-                <label for="type">View Type:</label>
-                <select ng-model="type" id="type">
-                    <option value="tail">Tail</option>
-                    <option value="more">More</option>
-                </select>
-                <select ng-model="tick">
-                    <option value="1000">1sec</option>
-                    <option value="2000">2sec</option>
-                    <option value="5000">5sec</option>
-                    <option value="10000">10sec</option>
-                    <option value="20000">20sec</option>
-                </select>
-
-                <label for="line">Fetch Line:</label>
-                <input ng-model="line" id="line"/>
-            </div>
+        <form class="form-inline">
+            <label for="type">View Type:</label>
+            <select ng-model="type" id="type" class="input-small">
+                <option value="tail">Tail</option>
+                <option value="more">More</option>
+            </select>
+            <label for="line">Lines:</label>
+            <input type="number" ng-model="line" id="line" step="any" class="input-small"/>
+            <label for="refresh">Refresh:</label>
+            <select ng-model="tick" ng-change="ticker()" id="refresh" class="input-small">
+                <option value="none">None</option>
+                <option value="1000">1sec</option>
+                <option value="2000">2sec</option>
+                <option value="5000">5sec</option>
+                <option value="10000">10sec</option>
+                <option value="20000">20sec</option>
+            </select>
+            <button ng-click="fetch()" class="btn">Fetch</button>
         </form>
-        <div class="span9">
-            <div class="row">
-                <textarea class="log-view" readonly>
-                    {{log.content}}
-                </textarea>
-            </div>
-        </div>
+        <textarea class="log-view" readonly>
+            {{log.content}}
+        </textarea>
     </div>
     <!--/span-->
 </div><!--/row-->

@@ -20,7 +20,8 @@ public class GetLogFileContentActionTest {
 
     @Before
     public void before() {
-        action = new GetLogFileContentAction(ImmutableSettings.Builder.EMPTY_SETTINGS, null, new RestController(ImmutableSettings.Builder.EMPTY_SETTINGS));
+        action = new GetLogFileContentAction(ImmutableSettings.Builder.EMPTY_SETTINGS, null,
+                new RestController(ImmutableSettings.Builder.EMPTY_SETTINGS), null);
     }
 
     @Test
