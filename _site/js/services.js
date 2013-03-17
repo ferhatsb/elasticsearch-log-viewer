@@ -10,6 +10,6 @@ angular.module('logviewerServices', ['ngResource']).
 
     factory('LogDetail', function ($resource) {
         return $resource('/_logviewer/:name', {}, {
-            query: {method: 'GET', params: {name: 'elasticsearch.log', type: 'tail', line: '1'}, isArray: true}
+            query: {method: 'GET', params: {name: 'elasticsearch.log', type: 'tail', line: '1'}}
         });
     });

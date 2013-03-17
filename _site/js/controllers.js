@@ -23,5 +23,9 @@ function LogDetailCtrl($scope, $timeout, $routeParams, LogDetail, Log) {
 
     $scope.fetch = function () {
         $scope.log = LogDetail.get({name: $routeParams.name, type: $scope.type, line: $scope.line});
-    }
+    };
+
+    $scope.navClass = function (page) {
+        return page === $routeParams.name ? 'active' : '';
+    };
 }

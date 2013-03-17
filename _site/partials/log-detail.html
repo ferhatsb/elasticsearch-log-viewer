@@ -3,8 +3,9 @@
         <div class="well sidebar-nav">
             <ul class="nav nav-list">
                 <li class="nav-header">Logs</li>
-                <li ng-repeat="log in logs" ng-class="navClass"><a
-                        href="#/logs/{{log.name}}">{{log.name|truncate:30}}</a></li>
+                <li ng-repeat="log in logs" ng-class="navClass('{{log.name}}')">
+                    <a href="#/logs/{{log.name}}">{{log.name|truncate:30}}</a>
+                </li>
             </ul>
         </div>
         <!--/.well -->
