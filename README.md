@@ -24,3 +24,5 @@ http://localhost:9200/_logviewer/x.log?type=more&line=10 => gets first 10 lines 
 
 http://localhost:9200/_plugin/log-viewer/
 
+![sh](https://raw.github.com/ferhatsb/elasticsearch-log-viewer/master/sh.png)
+
