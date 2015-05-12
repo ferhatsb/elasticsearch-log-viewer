@@ -1,11 +1,8 @@
-This plugin aims to provide a rest interface and an ui for reading ElasticSearch logs.
+This plugin aims to provide a rest interface and an ui for reading Elasticsearch logs.
 
 ## How To Install
 
-bin/plugin -url https://bitbucket.org/ferhat/elasticsearch-log-viewer/downloads/log-viewer-1.0.zip -install log-viewer
-
-However that not works as expected, you will have result '/plugins/log-viewer/log-viewer-1.0'.
-You should move contents of log-viewer-1.0 to upper folder log-viewer.
+bin/plugin -url https://github.com/ferhatsb/elasticsearch-log-viewer/releases/download/log-viewer-1.0/log-viewer-1.0.zip -install log-viewer
 
 ## Rest Interfaces
 
