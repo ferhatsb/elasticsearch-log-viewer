@@ -9,8 +9,15 @@
     <version>1.0</version>
     <packaging>jar</packaging>
 
+    <scm>
+        <connection>scm:git:https://github.com/ferhatsb/elasticsearch-log-viewer.git/</connection>
+        <developerConnection>scm:git:https://github.com/ferhatsb/elasticsearch-log-viewer.git/</developerConnection>
+        <url>https://github.com/ferhatsb/elasticsearch-log-viewer</url>
+        <tag>head</tag>
+    </scm>
+
     <properties>
-        <elasticsearch.version>0.20.5</elasticsearch.version>
+        <elasticsearch.version>0.90.13</elasticsearch.version>
         <junit.version>4.9</junit.version>
     </properties>
 
